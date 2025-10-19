@@ -1,0 +1,16 @@
+{
+  "name": "sunwin-taixiu-server",
+  "version": "1.0.0",
+  "description": "API + WebSocket dự đoán Tài/Xỉu SunWin",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "fastify": "^4.26.0",
+    "@fastify/cors": "^8.3.0",
+    "ws": "^8.17.0",
+    "node-fetch": "^3.3.2"
+  }
+}
